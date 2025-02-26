@@ -30,3 +30,27 @@
 *.exe
 *.out
 *.app
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+*.obj
+*.log
+*.bin
+*.exe
+*.pdb
+*.cache
+*.ilk
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
