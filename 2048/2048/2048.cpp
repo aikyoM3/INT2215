@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿#include <iostream>
+=======
+#include <iostream>
+>>>>>>> d2bd643a1f3e6a2dc8273c704c2cfc3af18c5120
 #include <vector>
 #include <cstdlib>
 #include <ctime>
