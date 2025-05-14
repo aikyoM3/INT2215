@@ -1,0 +1,10 @@
+^D:\SCHOOL-RELATED\INT2215\BUILD\CMAKEFILES\5AEC327D4117A9744B7C9E402E6490D0\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/School-related/INT2215 -BD:/School-related/INT2215/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/School-related/INT2215/build/2048.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
